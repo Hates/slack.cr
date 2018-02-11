@@ -25,12 +25,8 @@ class Slack
         text =~ /#{s}/
       end
 
-      def mentions(s : String)
-        text =~ /#{s}/
-      end
-
-      def mentions(s : String)
-        text =~ /#{s}/
+      def imentions(s : String)
+        text =~ /#{s}/i
       end
 
       def mentions(s : Array(String))
